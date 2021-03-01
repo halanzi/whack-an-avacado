@@ -20,6 +20,9 @@ class App extends Component {
       7: "translate(0, 110%)",
       8: "translate(0, 110%)",
       9: "translate(0, 110%)",
+      10: "translate(0, 110%)",
+      11: "translate(0, 110%)",
+      12: "translate(0, 110%)",
       shake: "translate(0, 0)",
       gameHasStarted: false,
       moleHasBeenWhacked: false,
@@ -104,7 +107,7 @@ class App extends Component {
   }
 
   displayMoles() {
-    let activeMole = Math.ceil(Math.random() * 9);
+    let activeMole = Math.ceil(Math.random() * 12);
     if (this.state.lastMole[0] === activeMole) {
       this.displayMoles();
       return;
@@ -161,7 +164,7 @@ class App extends Component {
 
   createMoleHoles() {
     var holes = [];
-    for (let i = 1; i <= 9; i++) {
+    for (let i = 1; i <= 12; i++) {
       holes.push(
         <MoleHole
           key={i}
@@ -182,7 +185,7 @@ class App extends Component {
             className="game__title"
             style={{ margin: this.state.titleMargin }}
           >
-            WHACK-A-MOLE
+            WHACK-AN-AVOCADO
           </h1>
           <GameOver context={this} />
           <div ref={"gameOver"} className="game__button-container">

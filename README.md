@@ -12,13 +12,16 @@ The user will play a game of whack-a-mole, where they have to click on every avo
 
 Every avocado they hit will turn into guacamole and points will be added to the user. Every round has limited time and the avocados should appear randomly from the holes.
 
+Note, both the timer, avacado, and audio aren't available now.
+
 ## Core technologies used
 
 - [ReactJS]
 - [Styled Components](https://www.styled-components.com/)
-- [React-Bootstrap]
+- [React-Bootstrap] (Not used yet in this version)
 - [AnimeJS] (https://animejs.com/)
 
 ## Acknowledgement and references
 
 A great deal of this project was inspired by the work of @RhodesPeter repoistory "whack-a-mole"
+The image were also randomly found on Google

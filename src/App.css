@@ -1,6 +1,6 @@
 body,
 html {
-  background-color: #2d4b96;
+  background-color: #1157c0;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -70,7 +70,7 @@ html {
 }
 
 .game__mole {
-  background-image: url(../src/Asset/img/mole.png);
+  background-image: url(../src/Asset/img/avocado.png);
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: top;
@@ -111,7 +111,7 @@ html {
 }
 
 .game__start-button:hover {
-  border: 2px solid #ffd008;
+  border: 2px solid #53491c;
 }
 
 .game__start-button:focus {
